@@ -1,0 +1,402 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+header {
+    padding: 30px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #628495;
+}
+
+
+header h1 {
+    color: white;
+    display: inline-block;
+    font-size: 60px;
+    text-shadow: 3px 3px 2px black;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.hero {
+    background-image: url('co_springs2.jpeg');
+    height: 800px;
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+img {
+    height: 300px;
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    padding: 30px;
+    border-style: double;
+    border-radius: 50px;
+    border-color: gray;
+}
+
+#quote {
+    inline-size: 900px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(38, 36, 36);
+    text-shadow: 1px 1px 1px white;
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    padding: 20px;
+}
+
+.content {
+    width: 100%;
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#About-Me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #628495;
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 3px 1px black;
+}
+
+#About-Me p {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.title {
+    padding: 20px;
+}
+
+#My-Work {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+    height: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #628495;
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 3px 1px black;
+    gap: 10px;
+}
+
+
+.grid {
+    width: 70%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.horiseon {
+    height: 700px;
+    width: 700px;
+    background-image: url('co_springs1.jpeg');
+    border: solid;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-size: cover;
+    opacity: 1;
+    gap: 1;
+}
+
+.text-box h3 {
+    padding: 10px;
+    background-color: #628495;
+    display: block;
+    opacity: .8;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 40px;
+
+}
+
+.text-box p {
+    padding: 10px;
+    background-color: #628495;
+    display: block;
+    opacity: .8;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.text-box:hover {
+    color: white;
+}
+
+
+.placeholder {
+    height: 300px;
+    width: 500px;
+    background-image: url('image1.jpeg');
+    margin: 8px 8px 8px 8px;
+    border: solid;
+    color: black;
+    display: grid;
+    flex-wrap: wrap;
+    text-decoration: none;
+    background-size: cover;
+    opacity: 1;
+    gap: 1;
+}
+
+
+.text-box1 h3 {
+    padding: 10px;
+    background-color: #628495;
+    display: block;
+    opacity: .8;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 25px;
+
+}
+
+.text-box1 p {
+    padding: 10px;
+    background-color: #628495;
+    display: block;
+    opacity: .8;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.text-box1:hover {
+    color: white;
+}
+
+.grid2 {
+    flex: 50%;
+    padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10 4px;
+    width: 100%;
+    height: auto;
+}
+
+
+.placeholder2 {
+    height: 500px;
+    width: 500px;
+    background-image: url('image2.jpeg');
+    margin: 8px 8px 8px 8px;
+    vertical-align: middle;
+    border: solid;
+    color: black;
+    display: flex;
+    text-decoration: none;
+    background-size: cover;
+    opacity: 1;
+}
+
+
+.text-box2 h3 {
+    padding: 10px;
+    background-color: #628495;
+    display: block;
+    opacity: .7;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 30px;
+
+}
+
+.text-box2 p {
+    padding: 10px;
+    background-color: #628495;
+    display: block;
+    opacity: .7;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.text-box2:hover {
+    color: white;
+}
+
+
+.projects-grid3 {
+    display: inline-block;
+    flex-wrap: wrap;
+    text-shadow: 1px 1px 1px black;
+}
+
+.placeholder3 {
+    height: 700px;
+    width: 400px;
+    background-image: url('image3.jpeg');
+    margin: 8px 8px 8px 8px;
+    vertical-align: middle;
+    border: solid;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    background-size: cover;
+    opacity: 1;
+}
+
+
+.text-box3 h3 {
+    padding: 8px;
+    background-color: #628495;
+    display: block;
+    opacity: .8;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 25px;
+
+}
+
+.text-box3 p {
+    padding: 8px;
+    background-color: #628495;
+    display: block;
+    opacity: .8;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px gray;
+
+}
+
+.text-box3:hover {
+    color: white;
+}
+
+
+.projects-grid3 {
+    display: inline-block;
+    flex-wrap: wrap;
+    text-shadow: 1px 1px 1px black;
+}
+
+.placeholder3 {
+    height: 700px;
+    width: 400px;
+    background-image: url('image3.jpeg');
+    margin: 8px 8px 8px 8px;
+    vertical-align: middle;
+    border: solid;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    background-size: cover;
+    opacity: 1;
+}
+
+
+.text-box3 h3 {
+    padding: 8px;
+    background-color: #628495;
+    display: block;
+    opacity: .8;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 25px;
+
+}
+
+.text-box3 p {
+    padding: 8px;
+    background-color: #628495;
+    display: block;
+    opacity: .8;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px gray;
+
+}
+
+.text-box:hover {
+    color: white;
+}
+
+#Contact-Me {
+    text-align: left;
+    margin-bottom: 0px;
+    padding: 40px;
+    height: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #628495;
+    color: white;   
+    font-size: 30px;
+    text-shadow: 3px 3px 1px black;
+} 
+
+footer div {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+footer div ul {
+    margin-left: 200px;
+    list-style-type: none;
+}
+
+footer div ul li {
+    display: inline-block;
+    margin-right: 100px;
+
+}
+
+footer a:hover {
+    color: black;
+    text-shadow: none;
+}
+
+@media (max-width: 768px) {
+    #quote {
+        width: 30%;
+    }
+}
+
