@@ -184,7 +184,7 @@ body {
     margin: 8px 8px 8px 8px;
     border: solid;
     color: black;
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
     text-decoration: none;
     background-size: cover;
