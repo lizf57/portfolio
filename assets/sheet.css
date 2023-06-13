@@ -143,6 +143,7 @@ body {
     height: 700px;
     width: 700px;
     background-image: url('co_springs1.jpeg');
+    margin: 8px 8px 8px 8px;
     border: solid;
     color: black;
     display: flex;
@@ -184,7 +185,7 @@ body {
     margin: 8px 8px 8px 8px;
     border: solid;
     color: black;
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
     text-decoration: none;
     background-size: cover;
@@ -194,7 +195,7 @@ body {
 
 
 .text-box1 h3 {
-    padding: 10px;
+    padding: 8px;
     background-color: #628495;
     display: block;
     opacity: .8;
@@ -204,7 +205,7 @@ body {
 }
 
 .text-box1 p {
-    padding: 10px;
+    padding: 8px;
     background-color: #628495;
     display: block;
     opacity: .8;

@@ -12,7 +12,7 @@ The requirements for the project are listed below:
 
 - Developer's name and a recent photo are presented to the user when the portfolio is loaded. 
 
-- inks for an "About Me" section, "My Work" section, and "Contact Me" section are active and will scroll to the corresponding section when clicked on. 
+- Links for an "About Me" section, "My Work" section, and "Contact Me" section are active and will scroll to the corresponding section when clicked on. 
 
 - When the user clicks on an image in the "My Work" section, it takes the user to the corresponding developer's applications.
 
@@ -26,6 +26,6 @@ Link to deployed application:
 https://lizf57.github.io/portfolio/ 
 
 
-![Project Screenshot](/portfolio1.png)
+![Project Screenshot](./assets/portfolio1.png)
 
-![Project Screenshot2](/portfolio2.png)
+![Project Screenshot2](./assets/portfolio2.png)
