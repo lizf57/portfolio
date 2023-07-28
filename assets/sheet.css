@@ -1,15 +1,27 @@
+:root {
+    --primary: #628495;
+    --secondary: rgb(38, 36, 36);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
-header {
-    padding: 30px;
-    text-align: left;
+
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #628495;
+    background-color: whitesmoke;
 }
 
+/* header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: var(--primary);
+}
 
 header h1 {
     color: white;
@@ -20,14 +32,7 @@ header h1 {
 
 header nav {
     padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
 }
 
 header nav ul li {
@@ -35,6 +40,7 @@ header nav ul li {
     margin-left: 60px;
 }
 
+/* link styling */
 a {
     color: white;
     text-decoration: none;
@@ -44,12 +50,14 @@ a:hover {
     color: black;
 }
 
+/* cover photo, profile photo, quote styling*/
 .hero {
-    background-image: url('co_springs2.jpeg');
+    background-image: url('./images/co_springs2.jpeg');
     height: 800px;
     width: 100%;
     background-position: top center;
     background-repeat: no-repeat;
+    display: flex;
 }
 
 img {
@@ -66,9 +74,9 @@ img {
 
 #quote {
     inline-size: 900px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(38, 36, 36);
+    color: var(--secondary);
     text-shadow: 1px 1px 1px white;
     display: flex;
     position: absolute;
@@ -77,50 +85,29 @@ img {
     padding: 20px;
 }
 
-.content {
-    width: 100%;
-    display: inline-block;
-}
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-#About-Me {
+/* section styling: about me and my work */
+#aboutMe {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #628495;
+    background-color: var(--primary);
     color: white;
     font-size: 30px;
     text-shadow: 3px 3px 1px black;
 }
 
-#About-Me p {
+#aboutMe p {
     font-size: 30px;
     padding: 10px;
 }
 
-.title {
-    padding: 20px;
-}
-
-#My-Work {
+#myWork {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
     padding: 20px 20px 20px 20px;
     height: 1000px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #628495;
+    background-color: var(--primary);
     color: white;
     font-size: 30px;
     text-shadow: 3px 3px 1px black;
