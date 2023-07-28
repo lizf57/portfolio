@@ -26,6 +26,6 @@ Link to deployed application:
 https://lizf57.github.io/portfolio/ 
 
 
-![Project Screenshot](./assets/portfolio1.png)
+![Project Screenshot](/portfolio1.png)
 
-![Project Screenshot2](./assets/portfolio2.png)
+![Project Screenshot2](/portfolio2.png)
