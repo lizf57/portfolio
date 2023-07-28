@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/sheet.css">
     <title>Friedman's Portfolio</title>
 </head>
 
-<body class="bg-dark">
+<body>
     <!--Header Section-->
     <header>
-        <h1>Liz Friedman</h1>
+        <div><h1>Liz Friedman</h1></div>
         <nav>
         <ul>
             <li>
@@ -45,95 +44,92 @@
  <!-- End of Hero section-->
 
  <!--start of content section-->
- <section class="content">
-
-    <section id="About-Me" class="About-Me">
-    <h2> About Me </h2>
-        <p>
-            Welcome to my Portfolio! My web development journey begun in May of 2023. I designed my Portfolio to showcase my professional and personal projects for future employers and other web designers. Just click the images below and you will see my work on display. 
-        </p>
+ <!-- about me section -->
+    <section id="aboutMe" class="section">
+        <div class="title">
+            <h2> About Me </h2>
+        </div>
+        
+        <div>
+            <p>
+                Welcome to my Portfolio! My web development journey begun in May of 2023. I designed my Portfolio to showcase my professional and personal projects for future employers and other web designers. Just click the images below and you will see my work on display. 
+            </p>
+        </div>
     </section>
 
-
-    <section id="My-Work" class="My-Work">
+<!-- my work section -->
+    <section id="myWork" class="section">
         <div class="title">
             <h2> My Work </h2>
         </div>
-        
-        <div class="grid"> 
+        <div class="grid-wrapper"> 
             <div class="projects-grid">
+
                 <a href="https://lizf57.github.io/horiseon/" target="_blank" class="project-horiseon">
                     <div class="horiseon">
-                        <div class="text-box">
                         <h3>Horiseon</h3>
                         <p>HTML/CSS</p>
                     </div>
-                </div>
                 </a>
-            </div> 
-
-            <div classs="projects-grid1">
-                <div class="placeholder">
-                    <div class="text-box1">
-                        <h3>Placeholder</h3>
-                        <p>JavaScript</p>
-                    </div>
-                </div>
-            </div>
             
 
-            <div classs="projects-grid2">
-                <div class="placeholder2">
-                    <div class="text-box2">
-                        <h3>Placeholder2</h3>
-                        <p>HTML/CSS/JavaScript</p>
-                    </div>
+            <a href="https://lshankkirchner017.github.io/culinary-climate-uofw/" target="_blank" class="project-culinary-climate">
+                <div class="culinary climate">
+                        <h3>Culinary Climate</h3>
+                        <p>CSS/JavaScript/API</p>
                 </div>
-            </div>
+            </a>
+            
+
+            <a href="https://lizf57.github.io/work-day-schedule/" target="_blank" class="project-office-organizer">
+                <div class="office Organizer">
+                        <h3>Daily Office Organizer</h3>
+                        <p>HTML/CSS/JavaScript</p>
+                </div>
+            </a>
         
              
-            <div classs="projects-grid3">
-                <div class="placeholder3">
-                    <div class="text-box3">
-                        <h3>Placeholder3</h3>
-                        <p>CSS</p>
-                    </div>
+            <a href="https://lizf57.github.io/weather-app/" target="_blank" class="project-weather-app">
+                <div class="weather app">
+                        <h3>Weather Dashboard</h3>
+                        <p>CSS/JavaScript/API</p>
                 </div>
-            </div>
+            </a>
         </div> 
-
+    </div> 
     </section>
 
 <!--End of my work. start of contact me-->
 
     <footer>
-        <footer id="Contact-Me" class="Contact-Me">
-            <div class="title"><h2> Contact Me </h2></div>
+            <div id="contactMe" class="contactInfo">
+                <h2> Contact Me </h2>
+            </div>
 
             <div class="content-wrapper">
                 <div id="contact-list">
                     <ul>
-                    <li>
-                        <a href="mailto:lizfriedman5@gmail.com"> Email </a>
-                    </li>
-                        
-                    <li>
-                        <p> Phone: 555-555-5555 </p>
-                    </li>
+                        <li>
+                            <a href="mailto:lizfriedman5@gmail.com"> Email </a>
+                        </li>
+                            
+                        <li>
+                            <p> Phone: 555-555-5555 </p>
+                        </li>
 
-                    <li>
-                        <a href="https://github.com/lizf57" target="_blank"> GitHub </a>
-                    </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/liz-friedman-711113247/" target="_blank"> LinkedIn </a>
+                        </li>
 
+                        <li>
+                            <a href="https://github.com/lizf57" target="_blank"> GitHub </a>
+                        </li>
                     </ul>
                 </div>
             </div>
-    </section>
     </footer>
 
 <!--End of contact me/footer-->
 
-</section>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
