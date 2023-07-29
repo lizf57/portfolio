@@ -12,6 +12,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: whitesmoke;
+    width: fit-content;
 }
 
 /* header styling */
@@ -95,19 +96,19 @@ section {
 }
 
 /* about me section */
-#aboutMe {
+#About-Me {
     padding: 50px;
     height: 300px;
 }
 
-#aboutMe p {
+#About-Me p {
     flex-wrap: wrap;
     font-size: 30px;
     padding: 10px;
 }
 
 /* my work styling */
-#myWork {
+#My-Work {
     padding: 50px;
     display: flex;
     justify-content: space-between;
@@ -120,9 +121,10 @@ section {
 }
 
 .projects-grid {
-    grid: 500px / auto auto auto;
-    display: grid;
-    gap: 5px;
+    justify-content: center;
+    grid: 400px / auto auto ;
+    display: grid ;
+    gap: 3px;
     font-size: 20px;
 }
 
@@ -143,40 +145,42 @@ p {
 .project-horiseon {
     grid-column: auto;
     background-image: url('./images/co_springs1.jpeg');
-    size: fit-content;
     background-position: bottom center;
     border: solid black;
     background-size: cover;
+    height: 400px;
+    width: 600px;
    
 }
 
 .project-culinary-climate {
     grid-column: auto;
-    background-image: url("./images/image1.jpeg");
+    background-image: url("./images/culinary-climate-logo.png");
+    background-color: rgba(227, 224, 224, 0.114);
     background-size: cover;
     background-position: bottom center;
     border: solid black;
-    height: 700px;
-    width: 900px;
+    height: 400px;
+    width: 400px;
 }
 
 .project-office-organizer {
     grid-column: auto;
-    background-image: url("./images/image2.jpeg");
+    background-image: url("./images/office-organizer-img.jpeg");
     background-size: cover;
-    background-position: center;
-    height: 500px;
-    width: 500px;    
+    background-position: top center;
+    height: 300px;
+    width: 600px;    
     border: solid black;
 }
 
 .project-weather-app {
     grid-column: auto;
-    background-image: url("./images/image3.jpeg");
+    background-image: url("./images/weather-app-img.jpeg");
     background-size: cover;
     border: solid black;
-    height: 700px;
-    width: 600px;
+    height: 400px;
+    width: 500px;
 }
 
 /* footer section */
@@ -193,7 +197,6 @@ footer {
 footer div {
     display: inline-block;
     margin-left: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
 }
 
@@ -213,8 +216,29 @@ footer a:hover {
     text-shadow: none;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #quote {
-        width: 30%;
+        width: fit-content;
+        background-color: #628495;
+        opacity: .6;
+        color: white;
+        text-shadow: 1px 1px 1px black;
     }
+
+    p {
+        font-size: medium;
+    }
+
+    header h1 {
+       font-size: 40px;
+    }
+
+    .grid-wrapper {
+        width: auto;
+    }
+
+    footer h2 {
+        font-size: 40px;
+    }
+
 }
