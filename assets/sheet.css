@@ -47,7 +47,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    box-shadow: 0 5px 25px black;
 }
 
 /* cover photo, profile photo, quote styling*/
@@ -86,274 +86,105 @@ img {
 }
 
 /* section styling: about me and my work */
-#aboutMe {
+section {
+    text-shadow: 3px 3px 1px black;
     margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: var(--primary);
+}
+
+/* about me section */
+#aboutMe {
     padding: 50px;
     height: 300px;
-    background-color: var(--primary);
-    color: white;
-    font-size: 30px;
-    text-shadow: 3px 3px 1px black;
 }
 
 #aboutMe p {
+    flex-wrap: wrap;
     font-size: 30px;
     padding: 10px;
 }
 
+/* my work styling */
 #myWork {
+    padding: 50px;
     display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    padding: 20px 20px 20px 20px;
-    height: 1000px;
-    background-color: var(--primary);
+    justify-content: space-between;
+    height: fit-content;
+}
+/* projects */
+.grid-wrapper{
+    width: 80%;
+    display: flex;
+}
+
+.projects-grid {
+    grid: 500px / auto auto auto;
+    display: grid;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.project {
+    display: flex;
+    opacity: .8;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+p {
+    margin: 10px;
+    text-decoration: none;
     color: white;
-    font-size: 30px;
-    text-shadow: 3px 3px 1px black;
-    gap: 10px;
 }
 
-
-.grid {
-    width: 70%;
-    height: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
+/* horiseon project */
+.project-horiseon {
+    grid-column: auto;
+    background-image: url('./images/co_springs1.jpeg');
+    size: fit-content;
+    background-position: bottom center;
+    border: solid black;
+    background-size: cover;
+   
 }
 
-.horiseon {
+.project-culinary-climate {
+    grid-column: auto;
+    background-image: url("./images/image1.jpeg");
+    background-size: cover;
+    background-position: bottom center;
+    border: solid black;
     height: 700px;
-    width: 700px;
-    background-image: url('co_springs1.jpeg');
-    margin: 8px 8px 8px 8px;
-    border: solid;
-    color: black;
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
+    width: 900px;
+}
+
+.project-office-organizer {
+    grid-column: auto;
+    background-image: url("./images/image2.jpeg");
     background-size: cover;
-    opacity: 1;
-    gap: 1;
-}
-
-.text-box h3 {
-    padding: 10px;
-    background-color: #628495;
-    display: block;
-    opacity: .8;
-    text-shadow: 1px 1px 1px gray;
-    font-size: 40px;
-
-}
-
-.text-box p {
-    padding: 10px;
-    background-color: #628495;
-    display: block;
-    opacity: .8;
-    font-size: 30px;
-    text-shadow: 1px 1px 1px gray;
-}
-
-.text-box:hover {
-    color: white;
-}
-
-
-.placeholder {
-    height: 300px;
-    width: 500px;
-    background-image: url('image1.jpeg');
-    margin: 8px 8px 8px 8px;
-    border: solid;
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    background-size: cover;
-    opacity: 1;
-    gap: 1;
-}
-
-
-.text-box1 h3 {
-    padding: 8px;
-    background-color: #628495;
-    display: block;
-    opacity: .8;
-    text-shadow: 1px 1px 1px gray;
-    font-size: 25px;
-
-}
-
-.text-box1 p {
-    padding: 8px;
-    background-color: #628495;
-    display: block;
-    opacity: .8;
-    font-size: 25px;
-    text-shadow: 1px 1px 1px gray;
-}
-
-.text-box1:hover {
-    color: white;
-}
-
-.grid2 {
-    flex: 50%;
-    padding: 0 4px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10 4px;
-    width: 100%;
-    height: auto;
-}
-
-
-.placeholder2 {
+    background-position: center;
     height: 500px;
-    width: 5s00px;
-    background-image: url('image2.jpeg');
-    margin: 8px 8px 8px 8px;
-    vertical-align: middle;
-    border: solid;
-    color: black;
-    display: flex;
-    text-decoration: none;
+    width: 500px;    
+    border: solid black;
+}
+
+.project-weather-app {
+    grid-column: auto;
+    background-image: url("./images/image3.jpeg");
     background-size: cover;
-    opacity: 1;
-}
-
-
-.text-box2 h3 {
-    padding: 10px;
-    background-color: #628495;
-    display: block;
-    opacity: .7;
-    text-shadow: 1px 1px 1px gray;
-    font-size: 30px;
-
-}
-
-.text-box2 p {
-    padding: 10px;
-    background-color: #628495;
-    display: block;
-    opacity: .7;
-    font-size: 30px;
-    text-shadow: 1px 1px 1px gray;
-}
-
-.text-box2:hover {
-    color: white;
-}
-
-
-.projects-grid3 {
-    display: inline-block;
-    flex-wrap: wrap;
-    text-shadow: 1px 1px 1px black;
-}
-
-.placeholder3 {
+    border: solid black;
     height: 700px;
-    width: 400px;
-    background-image: url('image3.jpeg');
-    margin: 8px 8px 8px 8px;
-    vertical-align: middle;
-    border: solid;
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    background-size: cover;
-    opacity: 1;
+    width: 600px;
 }
 
+/* footer section */
 
-.text-box3 h3 {
-    padding: 8px;
-    background-color: #628495;
-    display: block;
-    opacity: .8;
-    text-shadow: 1px 1px 1px gray;
-    font-size: 25px;
-
-}
-
-.text-box3 p {
-    padding: 8px;
-    background-color: #628495;
-    display: block;
-    opacity: .8;
-    font-size: 25px;
-    text-shadow: 1px 1px 1px gray;
-
-}
-
-.text-box3:hover {
-    color: white;
-}
-
-
-.projects-grid3 {
-    display: inline-block;
-    flex-wrap: wrap;
-    text-shadow: 1px 1px 1px black;
-}
-
-.placeholder3 {
-    height: 700px;
-    width: 400px;
-    background-image: url('image3.jpeg');
-    margin: 8px 8px 8px 8px;
-    vertical-align: middle;
-    border: solid;
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    background-size: cover;
-    opacity: 1;
-}
-
-
-.text-box3 h3 {
-    padding: 8px;
-    background-color: #628495;
-    display: block;
-    opacity: .8;
-    text-shadow: 1px 1px 1px gray;
-    font-size: 25px;
-
-}
-
-.text-box3 p {
-    padding: 8px;
-    background-color: #628495;
-    display: block;
-    opacity: .8;
-    font-size: 25px;
-    text-shadow: 1px 1px 1px gray;
-
-}
-
-.text-box:hover {
-    color: white;
-}
-
-#Contact-Me {
-    text-align: left;
-    margin-bottom: 0px;
+footer {
     padding: 40px;
-    height: 150px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #628495;
+    height: 200px;
+    background-color: var(--primary);
     color: white;   
     font-size: 30px;
     text-shadow: 3px 3px 1px black;
