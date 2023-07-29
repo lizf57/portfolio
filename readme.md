@@ -1,13 +1,15 @@
-# Portfolio-Project
+# Professional Portfolio Project
 
-<h2>Module 2 Challenge: Advanced CSS</h2>
+## Module 2 Challenge: Advanced CSS
 
-For this week's challenge, I created a portfolio using HTML and CSS. 
+For this week's challenge, I created a professional portfolio using HTML and CSS. 
+
 
 The purpose of creating this portfolio was to showcase my present and future web development projects for potential employers. 
 
 The skills I used for this portfolio reflect what I have learned in the first few weeks of the Coding Bootcamp, as well as working toward maintaining all requirements needed to complete the project. 
 
+## Requirements
 The requirements for the project are listed below:
 
 - Developer's name and a recent photo are presented to the user when the portfolio is loaded. 
@@ -24,3 +26,6 @@ The requirements for the project are listed below:
 
 Link to deployed application: 
 https://lizf57.github.io/portfolio/ 
+
+![project-screenshot](./assets/images/project-portfolio-screenshot1.png)
+![project-screenshot](./assets/images/project-portfolio-screenshot2.png)
