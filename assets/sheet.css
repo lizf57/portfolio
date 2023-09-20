@@ -148,7 +148,7 @@ p {
     background-position: bottom center;
     border: solid black;
     background-size: cover;
-    height: 400px;
+    height: 450px;
     width: 600px;
    
 }
@@ -174,13 +174,13 @@ p {
     border: solid black;
 }
 
-.project-weather-app {
+.career-craft {
     grid-column: auto;
-    background-image: url("./images/weather-app-img.jpeg");
+    background-image: url("./images/career-craft.png");
     background-size: cover;
     border: solid black;
     height: 400px;
-    width: 500px;
+    width: 550px;
 }
 
 /* footer section */
